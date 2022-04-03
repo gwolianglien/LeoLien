@@ -7,7 +7,7 @@ function Home() {
     <div className="app container-center container-fluid" style={fullGradient}>
       <div className="row">
         Hi, I'm Leo.
-        I'm an engineer.
+        I'm a software engineer.
       </div>
       <br />
       <div className="row">
