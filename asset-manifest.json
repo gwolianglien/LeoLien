@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/leolien/static/css/main.e6c13ad2.css",
-    "main.js": "/leolien/static/js/main.5baaa453.js",
-    "static/js/787.795da6a2.chunk.js": "/leolien/static/js/787.795da6a2.chunk.js",
-    "index.html": "/leolien/index.html",
-    "main.e6c13ad2.css.map": "/leolien/static/css/main.e6c13ad2.css.map",
-    "main.5baaa453.js.map": "/leolien/static/js/main.5baaa453.js.map",
-    "787.795da6a2.chunk.js.map": "/leolien/static/js/787.795da6a2.chunk.js.map"
+    "main.css": "/static/css/main.5d63d62b.css",
+    "main.js": "/static/js/main.ae801c91.js",
+    "static/js/787.795da6a2.chunk.js": "/static/js/787.795da6a2.chunk.js",
+    "index.html": "/index.html",
+    "main.5d63d62b.css.map": "/static/css/main.5d63d62b.css.map",
+    "main.ae801c91.js.map": "/static/js/main.ae801c91.js.map",
+    "787.795da6a2.chunk.js.map": "/static/js/787.795da6a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.5baaa453.js"
+    "static/css/main.5d63d62b.css",
+    "static/js/main.ae801c91.js"
   ]
 }
