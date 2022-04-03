@@ -1,6 +1,39 @@
-.App {
-  text-align: center;
+.app {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
 }
+
+.candy-blue {
+  color: #CDE4FF;
+}
+.candy-purple {
+  color: #D2C2F9;
+}
+.candy-pink {
+  color: #FFC5FD;
+}
+
+.gradient-1 {
+  background: linear-gradient(to right, 
+    #CDEFFF,
+    #D2C2F9,
+    #FFC5FD,
+  );
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +68,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
