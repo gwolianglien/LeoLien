@@ -3,6 +3,29 @@
   padding: 0;
   width: 100vw;
   min-height: 100vh;
+  position: absolute;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+}
+
+.flex-col-container {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
 }
 
 .candy-blue {
@@ -15,57 +38,3 @@
   color: #FFC5FD;
 }
 
-.gradient-1 {
-  background: linear-gradient(to right, 
-    #CDEFFF,
-    #D2C2F9,
-    #FFC5FD,
-  );
-}
-
-.container-center {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-/*
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

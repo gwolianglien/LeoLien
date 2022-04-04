@@ -1,23 +1,22 @@
-import { Link } from 'react-router-dom';
 import { BsGithub, BsLinkedin, BsMedium } from "react-icons/bs";
-import { fullGradient, iconContainer } from '../styles/styles';
+import { iconContainer } from '../styles/styles';
 
 function Home() {
   return (
-    <div className="app container-center container-fluid" style={fullGradient}>
-      <div className="row">
+    <div className="flex-col-container center">
+      <div className="flex-row">
         Hi, I'm Leo.
-        I'm a software engineer.
+        I write code and I’m passionate about food, music, and people.
       </div>
       <br />
-      <div className="row">
-        <a className="col" href="https://github.com/gwolianglien" target="_blank">
+      <div className="flex-row">
+        <a className="flex-col icon-spacing" href="https://github.com/gwolianglien" target="_blank" rel="noreferrer" aria-describedby="Github">
           <BsGithub style={iconContainer} />
         </a>
-        <a className="col" href="https://www.linkedin.com/in/leolien/" target="_blank"> 
+        <a className="flex-col icon-spacing" href="https://www.linkedin.com/in/leolien/" target="_blank" rel="noreferrer" aria-describedby="LinkedIn"> 
           <BsLinkedin style={iconContainer}/>
         </a>
-        <a className="col" href="https://medium.com/@leolien" target="_blank"> 
+        <a className="flex-col icon-spacing" href="https://medium.com/@leolien" target="_blank" rel="noreferrer" aria-describedby="Medium"> 
           <BsMedium style={iconContainer}/>
         </a>
       </div>

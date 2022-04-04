@@ -1,9 +1,10 @@
-import { partialGradient1 } from '../styles/styles';
 
 function Projects() {
   return (
-    <div className="app container-center container-fluid" style={partialGradient1}>
-      My Projects
+    <div className="flex-col-container center">
+      <div className="flex-row">
+        Hi, I'm still under construction. Please check back later!
+      </div>
     </div>
   );
 }

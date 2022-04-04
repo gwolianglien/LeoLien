@@ -22,4 +22,6 @@ export const backgroundPink = {
 export const iconContainer = {
     fontSize: '32px',
     color: 'black',
+    marginLeft: '10px',
+    marginRight: '10px',
 }
