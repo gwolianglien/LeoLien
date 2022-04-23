@@ -38,3 +38,17 @@
   color: #FFC5FD;
 }
 
+@media screen and (min-width: 992px) {
+  .navbar-hover {
+    opacity: 0;
+    transition: opacity .3s, top .5s;
+  }
+  .navbar-hover:hover {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-hover {
+    opacity: 1;
+  }
+}
